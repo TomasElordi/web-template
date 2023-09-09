@@ -1,14 +1,9 @@
-import './globals.css'
+import '@/app/globals.css'
 
 import Link from 'next/link'
 
-import { Inter } from 'next/font/google'
-
-
 import ThemeButton from '@/theme/ThemeButton'
 import ThemeProviders from '@/theme/ThemeProvider'
-
-
 
 export const metadata = {
   title: 'Create Next App',
@@ -29,7 +24,7 @@ export default function RootLayout({ children }) {
                 </li>
               </ul>
 
-              <ThemeButton className='w-2' />
+              <ThemeButton  />
             </nav>
           </header>
 
